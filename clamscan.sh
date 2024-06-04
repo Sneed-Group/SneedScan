@@ -1,8 +1,8 @@
 echo ClamScan - a Sneed Group Tool.
 sudo freshclam
-sudo clamscan -r -i --remove / --scan-pe=yes \
+sudo clamscan -r -i --scan-pe=yes \
 --scan-elf=yes \
---scan ole2=yes \
+--scan-ole2=yes \
 --scan-pdf=yes \
 --scan-xmldocs=yes \
 --scan-archive=yes \
@@ -13,4 +13,5 @@ sudo clamscan -r -i --remove / --scan-pe=yes \
 --alert-macros=yes \
 --max-files=10000 \
 --max-recursion=12 \
--max-dir-recursion=420
+--max-dir-recursion=420 \
+--remove /
