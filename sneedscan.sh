@@ -110,7 +110,7 @@ clamscan --scan-elf=yes \
 --max-dir-recursion=3 \
 --remove /usr/bin
 
-echo Scanning system binaries. (WILL NOT AUTOREMOVE THESE)
+echo "Scanning system binaries. (WILL NOT AUTOREMOVE THESE)"
 clamscan --scan-elf=yes \
 --scan-ole2=no \
 --scan-pdf=no \
