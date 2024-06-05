@@ -9,7 +9,6 @@ sudo clamscan -r -i --scan-pe=yes \
 --scan-swf=no \
 --scan-html=no \
 --scan-hwp3=no \
---alert-encrypted-archive=yes \
 --alert-macros=yes \
 --max-files=10000 \
 --max-recursion=12 \
