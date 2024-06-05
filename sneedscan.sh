@@ -1,4 +1,4 @@
-echo ClamScan - a Sneed Group Tool.
+echo SneedScan - a Sneed Group Tool.
 sudo freshclam
 sudo clamscan -r -i --scan-pe=yes \
 --scan-elf=yes \
